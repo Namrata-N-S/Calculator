@@ -25,7 +25,7 @@
 			});
 			$("#equalsButton").click(function(){
 				operationDone = true;
-				Calculator.euqals(operator);
+				Calculator.equals(operator);
 			});
 			
 			$("#clearButton").click(function(){
@@ -92,7 +92,7 @@
 			result = 0;	
 		},
 		
-		euqals:function(operator){
+		equals:function(operator){
 			if(operator && operand2){
 				displayBox.val("");
 			}
